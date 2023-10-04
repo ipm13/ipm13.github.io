@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #ffc800;
+  --bs-primary: #0a1d4d;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #174464;
@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 255, 200, 0;
+  --bs-primary-rgb: 10, 29, 77;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 24, 64, 92;
@@ -10875,10 +10875,14 @@ p {
   border-radius: 100%;
 }
 
+.gradient-bg {
+  background-image: url("../assets/img/navbar-bg.png");
+  background-size: cover;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10904,7 +10908,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #18E772;
 }
 
 @media (min-width: 992px) {
@@ -10971,8 +10975,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 17rem;
+    padding-top: 24rem;
+    padding-bottom: 23rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11016,15 +11020,14 @@ header.masthead .masthead-heading {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
@@ -11277,60 +11280,6 @@ a:hover {
 
 .img-brand {
   height: 2.75rem;
-}
-
-section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-section#contact .section-heading {
-  color: #fff;
-}
-section#contact form#contactForm .form-group {
-  margin-bottom: 1.5rem;
-}
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
-section#contact form#contactForm .form-group input.form-control {
-  height: auto;
-}
-section#contact form#contactForm .form-group-textarea {
-  height: 100%;
-}
-section#contact form#contactForm .form-group-textarea textarea {
-  height: 100%;
-  min-height: 10rem;
-}
-section#contact form#contactForm p.help-block {
-  margin: 0;
-}
-section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
-  box-shadow: none;
-}
-section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
 }
 
 .footer {
