@@ -38,11 +38,14 @@
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
-                <div class="">
-                    <h2 class="section-heading text-uppercase text-center text-primary">About</h2>
+                <div>
+                    <h2 class="section-heading text-uppercase text-center text-primary pb-3">About</h2>
                     <p class="section-subheading text-muted"><strong>TrainLink</strong> is an initiative organized by a group of Computer Science and Engineering students from FCT NOVA 
                         (NOVA School of Science and Technology), with the objective of learning and applying the main concepts of human-computer interaction and interface design.</p>
-                    <p class="section-subheading text-muted"></p>
+                    <p class="section-subheading text-muted">Our application aims to remotely organize training in team sports, in order to facilitate the coach's work and maintain
+                        athletes informed about what will be done in training and important team information.</p>
+                    <p class="section-subheading text-muted">You can check the authors of this project, as well as the individual assignments of each one, and the different phases
+                        of the final project.</p>
                 </div>
             </div>
         </section>
@@ -50,8 +53,7 @@
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase text-primary">Team</h2>
-                    <hr/>
+                    <h2 class="section-heading text-uppercase text-primary pb-3">Team</h2>
                     <p class="section-subheading text-muted">We are the Group 13 from Lab Class 2 of IPM course.</p>
                 </div>
                 <div class="row">
@@ -106,7 +108,7 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase text-primary">Portfolio</h2>
+                    <h2 class="section-heading text-uppercase text-primary pb-3">Portfolio</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 mb-4">
@@ -116,11 +118,27 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid rounded-top" src="assets/img/logo.png" alt="..." />
+                                <img class="img-fluid rounded-top" src="assets/img/logo.png" alt="Logo" />
                             </a>
                             <div class="portfolio-caption rounded-bottom">
                                 <div class="portfolio-caption-heading">Stage 1 - Project Proposal</div>
                                 <div class="text-muted">3th October 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid rounded-top" src="assets/img/logo.png" alt="Logo" />
+                            </a>
+                            <div class="portfolio-caption rounded-bottom">
+                                <div class="portfolio-caption-heading">Stage 2 - User and task analysis</div>
+                                <div class="text-muted">9th October 2023</div>
                             </div>
                         </div>
                     </div>
@@ -156,6 +174,26 @@
                 </div>
             </div>
         </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h3 class="text-uppercase">Stage 2 - User and task analysis</h3>
+                                    <p class="item-intro text-muted">Identification and characterization of the target users, tasks and scenarios.</p>
+                                    <a href="https://ipm13.github.io/assets/stages/stage2_user_and_task_analysis.pdf">Click here to see the report.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- André Correia projects modal popup-->
         <div class="portfolio-modal modal fade" id="andre_cProjectsModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
@@ -179,15 +217,15 @@
                                 </div>
                             </a>
                             <!-- Project 2-->
-                            <a class="project card col-lg-3 mx-3 mt-4" href="#">
+                            <a class="project card col-lg-3 mx-3 mt-4" href="https://dl.acm.org/doi/pdf/10.1145/30401.30402">
                                 <img class="card-img-top" src="assets/img/portfolio/assignment2.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">#2 Paper analysis</h5>
-                                    <p class="card-text">...</p>
+                                    <p class="card-text">Read and analyze the article <i>"The 1984 Olympic Message System: a test of behavioral principles of system design"</i>.</p>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">Deadline: 09/10/2023</small>
-                                    <i class="fa-solid fa-hourglass text-warning"></i>
+                                    <i class="fa-solid fa-check text-success"></i>
                                 </div>
                             </a>
                         </div>
@@ -218,15 +256,15 @@
                                 </div>
                             </a>
                             <!-- Project 2-->
-                            <a class="project card col-lg-3 mx-3 mt-4" href="#">
+                            <a class="project card col-lg-3 mx-3 mt-4" href="https://dl.acm.org/doi/pdf/10.1145/30401.30402">
                                 <img class="card-img-top" src="assets/img/portfolio/assignment2.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">#2 Paper analysis</h5>
-                                    <p class="card-text">...</p>
+                                    <p class="card-text">Read and analyze the article <i>"The 1984 Olympic Message System: a test of behavioral principles of system design"</i>.</p>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">Deadline: 09/10/2023</small>
-                                    <i class="fa-solid fa-hourglass text-warning"></i>
+                                    <i class="fa-solid fa-check text-success"></i>
                                 </div>
                             </a>
                         </div>
@@ -257,15 +295,15 @@
                                 </div>
                             </a>
                             <!-- Project 2-->
-                            <a class="project card col-lg-3 mx-3 mt-4" href="#">
+                            <a class="project card col-lg-3 mx-3 mt-4" href="https://dl.acm.org/doi/pdf/10.1145/30401.30402">
                                 <img class="card-img-top" src="assets/img/portfolio/assignment2.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">#2 Paper analysis</h5>
-                                    <p class="card-text">...</p>
+                                    <p class="card-text">Read and analyze the article <i>"The 1984 Olympic Message System: a test of behavioral principles of system design"</i>.</p>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">Deadline: 09/10/2023</small>
-                                    <i class="fa-solid fa-hourglass text-warning"></i>
+                                    <i class="fa-solid fa-check text-success"></i>
                                 </div>
                             </a>
                         </div>
@@ -296,15 +334,15 @@
                                 </div>
                             </a>
                             <!-- Project 2-->
-                            <a class="project card col-lg-3 mx-3 mt-4" href="#">
+                            <a class="project card col-lg-3 mx-3 mt-4" href="https://dl.acm.org/doi/pdf/10.1145/30401.30402">
                                 <img class="card-img-top" src="assets/img/portfolio/assignment2.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">#2 Paper analysis</h5>
-                                    <p class="card-text">...</p>
+                                    <p class="card-text">Read and analyze the article <i>"The 1984 Olympic Message System: a test of behavioral principles of system design"</i>.</p>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">Deadline: 09/10/2023</small>
-                                    <i class="fa-solid fa-hourglass text-warning"></i>
+                                    <i class="fa-solid fa-check text-success"></i>
                                 </div>
                             </a>
                         </div>
