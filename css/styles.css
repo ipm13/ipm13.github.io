@@ -10997,17 +10997,17 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-#portfolio .portfolio-item {
+#project .project-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-#portfolio .portfolio-item .portfolio-link {
+#project .project-item .project-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#project .project-item .project-link .project-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11020,66 +11020,66 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#project .project-item .project-link .project-hover .project-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+#project .project-item .project-link:hover .project-hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-caption {
+#project .project-item .project-caption {
   padding: 1rem;
   text-align: center;
   background-color: #fff;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+#project .project-item .project-caption .project-caption-heading {
   font-size: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+#project .project-item .project-caption .project-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.portfolio-modal .modal-dialog {
+.project-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
 }
-.portfolio-modal .modal-content {
+.project-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
 }
-.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+.project-modal .modal-content h2, .project-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
 }
-.portfolio-modal .modal-content p.item-intro {
+.project-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.portfolio-modal .modal-content p {
+.project-modal .modal-content p {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content ul.list-inline {
+.project-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content img {
+.project-modal .modal-content img {
   margin-bottom: 2rem;
 }
-.portfolio-modal .close-modal {
+.project-modal .close-modal {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   cursor: pointer;
   background-color: transparent;
 }
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+.project-modal .close-modal:hover {
+  opacity: 0.5;
 }
 
 .timeline {
@@ -11286,6 +11286,10 @@ a:hover {
   text-decoration: none;
 }
 
+.member-link:hover {
+  text-decoration: none;
+}
+
 .img-brand {
   height: 2.75rem;
 }
@@ -11314,4 +11318,21 @@ a:hover {
 .project:hover {
   transform: scale(1.02);
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.carousel-item img {
+  height: 32rem;
+}
+
+.resize {
+  width: 70%;
+  height: auto;
+}
+
+@media (min-width: 767.98px) {
+  .resize {
+    width: 30%;
+    height: auto;
+  }
 }
