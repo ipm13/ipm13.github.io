@@ -11340,3 +11340,13 @@ a:hover {
     height: auto;
   }
 }
+
+.horizontal-scrollable > .row { 
+  overflow-x: auto; 
+  white-space: nowrap; 
+} 
+
+.horizontal-scrollable > .row > .col-lg-4 { 
+  display: inline-block; 
+  float: none; 
+} 
